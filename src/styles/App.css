@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.task input {
+    width: 30px;
+    height: 30px;
+}
+
+.task button {
+    padding: 10px 30px;
+    background: none;
+    border: 2px solid teal;
+    color: teal;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.task button:hover {
+    background: teal;
+    border: 2px solid teal;
+    color: white;
+}

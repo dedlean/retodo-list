@@ -1,0 +1,30 @@
+.inputForm {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 600px;
+    margin-bottom: 200px;
+}
+
+.inputForm button {
+    padding: 30px 10px;
+    width: 30%;
+    background: none;
+    border: 2px solid teal;
+    color: teal;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.inputForm button:hover {
+    width: 100%;
+    background: teal;
+    border: 2px solid teal;
+    color: white;
+}
+
+.inputForm input {
+    border: 3px solid teal;
+    width: 100%;
+}
