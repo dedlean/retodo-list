@@ -11,7 +11,7 @@ body {
 .task {
     display: flex;
     justify-content: space-between;
-    width: 600px;
+    width: 70%;
     margin: 0 auto;
     margin-bottom: 20px;
     font-size: 30px;
@@ -32,6 +32,7 @@ body {
     transition: 0.2s;
     cursor: pointer;
     max-height: fit-content;
+    user-select: none;
 }
 
 .task button:hover {
@@ -41,6 +42,6 @@ body {
 }
 
 .task p {
-    width: 60%;
+    width: 80%;
     word-break: break-all;
 }

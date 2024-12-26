@@ -3,7 +3,7 @@
     margin: 0 auto;
     justify-content: space-between;
     margin: 0 auto;
-    width: 600px;
+    width: 70%;
     margin-bottom: 200px;
 }
 
@@ -16,6 +16,7 @@
     color: teal;
     transition: 0.2s;
     cursor: pointer;
+    user-select: none;
 }
 
 .inputForm button:hover {
