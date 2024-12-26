@@ -11,7 +11,8 @@
     padding: 30px 10px;
     width: 30%;
     background: none;
-    border: 2px solid teal;
+    border: 3px solid teal;
+    border-left-width: 0;
     color: teal;
     transition: 0.2s;
     cursor: pointer;
@@ -20,11 +21,25 @@
 .inputForm button:hover {
     width: 100%;
     background: teal;
-    border: 2px solid teal;
     color: white;
 }
 
-.inputForm input {
+.inputForm textarea {
     border: 3px solid teal;
+    border-right-width: 1px;
     width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5% 20px 5% 5%;
+    resize: none;
+    overflow: auto;
+}
+
+.inputForm textarea::placeholder {
+    position: relative;
+    top: 0;
+    padding-bottom: 300px;
+    margin-bottom: 300px;
+    font-weight: 900;
+    font-size: 20px;
 }

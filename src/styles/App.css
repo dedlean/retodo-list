@@ -19,8 +19,9 @@ body {
 }
 
 .task input {
-    width: 30px;
-    height: 30px;
+    width: 37px;
+    height: 37px;
+    accent-color: teal;
 }
 
 .task button {
@@ -30,10 +31,16 @@ body {
     color: teal;
     transition: 0.2s;
     cursor: pointer;
+    max-height: fit-content;
 }
 
 .task button:hover {
     background: teal;
     border: 2px solid teal;
     color: white;
+}
+
+.task p {
+    width: 60%;
+    word-break: break-all;
 }

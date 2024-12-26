@@ -12,7 +12,7 @@ const InputBlock = ({props, create}) => {
 
   return (
     <form className={classes.inputForm}>
-        <input value={text} type="text" placeholder="Задача" onChange={e => (
+        <textarea value={text} type="text" placeholder="Задача" onChange={e => (
             setText(e.target.value)
         )}/>
         <button onClick={createPost}>Создать задачу</button>
